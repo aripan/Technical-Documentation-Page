@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="technicaldocumentationpage.css">
+    <title>Technical Documentation Page</title>
+</head>
+<body>
+   
+    <main id="main-doc">
+        <section class="intro">
+            <div id="introduction">
+                <header>Introduction</header>
+                <p>
+                    Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. 
+                    It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under 
+                    the GNU General Public License (GPL). Python is named after a TV Show called ëMonty Pythonís Flying Circusí 
+                    and not after Python-the snake.
+                    <br> <br>
+                    Python is a MUST for students and working professionals to become a great Software Engineer specially when 
+                    they are working in Web Development Domain. I will list down some of the key advantages of learning Python:
+                    <br>
+                    <ul>
+                        <li>Python is Interpreted.</li>
+                        <li>Python is interactive.</li>
+                        <li>Python is Object-Oriented.</li>
+                        <li>Python is a Beginner's Language.</li>
+                    </ul>
+
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="operator">
+            <div id="basic_operators">
+                <header>Basic Operators</header>
+                <p>
+                    Operators are the constructs, which can manipulate the value of operands. 
+                    Consider the expression 4 + 5 = 9. Here, 4 and 5 are called the operands and + is called the operator.
+                    <br><br>
+                    Types of Operator <br>
+                    Python language supports the following types of operators:
+                    <ul>
+                        <li><a href="https://www.tutorialspoint.com/python3/python_basic_operators.htm" 
+                            target="_blank">Arithmatic Operators</a></li>
+                        <li><a href="https://www.tutorialspoint.com/python3/python_basic_operators.htm" 
+                            target="_blank">Comparison (Relational) Operators</a></li>
+                        <li><a href="https://www.tutorialspoint.com/python3/python_basic_operators.htm" 
+                                target="_blank">Assignment Operators</a></li>
+                        <li><a href="https://www.tutorialspoint.com/python3/python_basic_operators.htm" 
+                                    target="_blank">Logical Operators</a></li>
+                        <li><a href="https://www.tutorialspoint.com/python3/python_basic_operators.htm" 
+                                        target="_blank">Bitwise Operators</a></li>
+                        <li><a href="https://www.tutorialspoint.com/python3/python_basic_operators.htm" 
+                                            target="_blank">Membership Operators</a></li>
+                        <li><a href="https://www.tutorialspoint.com/python3/python_basic_operators.htm" 
+                                                target="_blank">Identity Operators</a></li>
+                    </ul> 
+                </p>
+
+            </div>
+            
+        </section>
+
+        <section class="decision">
+            <div id="decision_making">
+                <header>Decision Making</header>
+                <p>
+                    Decision-making is the anticipation of conditions occurring during the execution of a program and 
+                    specified actions taken according to the conditions. <br><br>
+                    Decision structures evaluate multiple expressions, which produce TRUE or FALSE as the outcome. 
+                    You need to determine which action to take and which statements to execute if the outcome is TRUE or FALSE otherwise.
+                    <br><br>
+                    Following is the general form of a typical decision making structure found in most of the programming languages:
+                    <br><br>
+                    <img src="https://rtfm.co.ua/wp-content/uploads/2014/04/decision_making.jpg" alt="decision making">
+                    <br><br>
+                    Python programming language provides the following types of decision-making statements.
+                    <br><br>
+                    <ul>
+                        <li>if statements</li>
+                        <p>The IF statement is similar to that of other languages. The if statement contains a logical expression 
+                            using which the data is compared and a decision is made based on the result of the comparison.
+                            <br><br>
+                            Syntax:
+                            <div class="if_expression">
+                                if expression: <br>
+                               <span style="margin-left: 2em;">statement(s)</span> 
+                            </div>
+                            
+                            <br>
+                            If the boolean expression evaluates to TRUE, then the block of statement(s) inside the if statement is executed. 
+                            In Python, statements in a block are uniformly indented after the : symbol. If boolean expression evaluates to FALSE, 
+                            then the first set of code after the end of block is executed.
+                        </p>
+                        <br>
+                        <li>if...else statements</li>
+                        <p>
+                            An else statement can be combined with an if statement. An else statement contains a block of code 
+                            that executes if the conditional expression in the if statement resolves to 0 or a FALSE value.
+                            <br><br>
+                            The else statement is an optional statement and there could be at the most only one else statement following if.
+                            <br><br>
+                            Syntax:
+                            <div class="if_else">
+                                if expression: <br>
+                               <span style="margin-left: 2em;">statement(s)</span>  <br>
+                                else: <br>
+                                <span style="margin-left: 2em;">statement(s)</span> 
+                            </div>
+                            
+                        
+                        </p>
+                        <br>
+                        <li>nested if statements</li>
+                        <p>
+                            There may be a situation when you want to check for another condition after a condition resolves to true. 
+                            In such a situation, you can use the nested if construct.
+                            <br><br>
+                            In a nested if construct, you can have an if...elif...else construct inside another if...elif...else construct.
+                            <br><br>
+                            Syntax:
+                            <div class="nested">
+                                if expression1:
+                                  <span style="margin-left: 2em;">statement(s) </span>  
+                                  <span style="margin-left: 2em;">if expression2: </span> 
+                                  <span style="margin-left: 4em;">statement(s)</span>    
+                                  <span style="margin-left: 2em;">elif expression3:</span> 
+                                  <span style="margin-left: 4em;">statement(s)</span>   
+                                  <span style="margin-left: 2em;">else</span> 
+                                  <span style="margin-left: 4em;">statement(s)</span>     
+                                elif expression4:
+                                <span style="margin-left: 2em;">statement(s)</span>   
+                                else:
+                                <span style="margin-left: 2em;">statement(s)</span>    
+                            </div>
+                            
+                            <br>
+                            Example: <br><br>
+                            <div class="nested_example">
+                                # !/usr/bin/python3
+
+                                num = int(input("enter number"))
+                                if num%2 == 0:
+                                   <span style="margin-left: 2em;">if num%3 == 0:</span> 
+                                   <span style="margin-left: 4em;">print ("Divisible by 3 and 2")</span> 
+                                   <span style="margin-left: 2em;">else:</span> 
+                                   <span style="margin-left: 4em;">print ("divisible by 2 not divisible by 3")</span>
+                                else:
+                                    <span style="margin-left: 2em;">if num%3 == 0:</span>
+                                    <span style="margin-left: 4em;">print ("divisible by 3 not divisible by 2")</span>
+                                    <span style="margin-left: 2em;">else:</span> 
+                                    <span style="margin-left: 4em;">print  ("not Divisible by 2 not divisible by 3")</span>      
+                            </div>
+                            
+                        </p>
+
+                    </ul>
+                </p>
+
+            </div>
+            
+        </section>
+
+        <section class="loop">
+            <div id="loops">
+                <header>Loops</header>
+                <p>
+                    In general, statements are executed sequentially − The first statement in a function is executed first, 
+                    followed by the second, and so on. There may be a situation when you need to execute a block of code several 
+                    number of times. <br><br>
+                    Programming languages provide various control structures that allow more complicated execution paths. 
+                    Python programming language provides the following types of loops to handle looping requirements.
+                </p>
+                <br><br>
+                <ul>
+                    <li>while loop</li>
+                    <p>
+                        A while loop statement in Python programming language repeatedly executes a target statement as long as a 
+                        given condition is true. <br><br>
+                        Syntax: <br>
+                        <div class="while">
+                            while expression:
+                                <span style="margin-left: 2em;">statement(s)</span> 
+                        </div>
+                        <br>
+                        Example: <br> <br>
+                        <div class="while_example">
+                            #!/usr/bin/python3
+
+                            count = 0
+                            while (count < 9):
+                                <span style="margin-left: 2em;">print ('The count is:', count)</span>
+                                <span style="margin-left: 2em;">count = count + 1</span>
+
+                            print ("Good bye!")
+                        </div>
+                        
+                    </p>
+                    <br><br>
+                    <li>for loop</li>
+                    <p>The for statement in Python has the ability to iterate over the items of any sequence, such as a list or a string.
+                        <br><br>
+                        Syntax: <br>
+                        <div class="for_loop">
+                            for iterating_var in sequence: <br>
+                            <span style="margin-left: 2em;">statements(s)</span> 
+                        </div>
+                        
+                        <br>
+                        If a sequence contains an expression list, it is evaluated first. Then, the first item in the sequence is 
+                        assigned to the iterating variable iterating_var. Next, the statements block is executed. 
+                        Each item in the list is assigned to iterating_var, and the statement(s) block is executed until 
+                        the entire sequence is exhausted.
+                        <br> <br>
+                        The range() function:<br>
+                        The built-in function range() is the right function to iterate over a sequence of numbers. 
+                        It generates an iterator of arithmetic progressions. <br> <br>
+                        Example: <br> <br>
+                        <div class="for_example">
+                            >>> range(5) <br>
+                            range(0, 5) <br>
+                            >>> list(range(5)) <br>
+                            [0, 1, 2, 3, 4]
+                        </div>
+                        
+            
+                    </p>
+                    <br><br>
+                    <li>nested loops</li>
+                    <p>
+                        Python programming language allows the usage of one loop inside another loop. 
+                        The following section shows a few examples to illustrate the concept. <br><br>
+                        Syntax:
+                        <div class="nested_loop">
+                            for iterating_var in sequence:
+                            <span style="margin-left: 2em;">for iterating_var in sequence:</span> 
+                                <span style="margin-left: 4em;">statements(s)</span>
+                            <span style="margin-left: 2em;">statements(s)</span>
+                        </div>
+                        <br>
+                        
+                        Example: <br>
+                        The following program uses a nested-for loop to display multiplication tables from 1-10.
+                        <div class="nested_loop_example">
+                            #!/usr/bin/python3
+                            
+                            import sys
+                            for i in range(1,11):
+                                <span style="margin-left: 2em;">for j in range(1,11):</span> 
+                                    <span style="margin-left: 4em;">k = i*j</span>
+                                    <span style="margin-left: 4em;">print (k, end=' ')</span>
+                                <span style="margin-left: 2em;">print()</span>
+                        </div>
+                        
+                    </p>
+                </ul>
+
+            </div>
+            
+        </section>
+
+        <section class="number">
+            <div id="numbers">
+                <header>Numbers</header>
+                    <p>
+                        Number data types store numeric values. They are immutable data types. This means, changing the value of a 
+                        number data type results in a newly allocated object.
+                        <br>
+                        Number objects are created when you assign a value to them. <br> <br>
+                        For example: <br>
+                        <div class="var12">
+                            var1 = 1 <br>
+                            var2 = 10
+                        </div>
+                        
+                        
+                        <p>You can also delete the reference to a number object by using the del statement. <br>
+                            The syntax of the del statement is:</p>
+                            
+                        
+                        <div class="del">
+                            del var1[,var2[,var3[....,varN]]]]
+                        </div>
+                            
+                        
+                        <p>You can delete a single object or multiple objects by using the del statement. <br> For example:</p>
+                        
+                        
+                        <div class="del_var">
+                            del var <br>
+                            del var_a, var_b
+                        </div>
+                        
+            
+                        <p>It is possible to represent an integer in hexa-decimal or octal form: </p>
+                        
+                        <div class="number_example">
+                            >>> number = 0xA0F #Hexa-decimal <br>
+                            >>> number <br>
+                            2575 <br> <br>
+                
+                            >>> number = 0o37 #Octal <br>
+                            >>> number <br>
+                            31
+                        
+                        </div>
+                        
+                    </p>
+            </div>
+           
+
+        </section>
+
+        <section class="string">
+            <div id="strings">
+                <header>Strings</header>
+                <p>
+                    Strings are amongst the most popular types in Python. We can create them simply by enclosing characters in quotes. 
+                    Python treats single quotes the same as double quotes. Creating strings is as simple as assigning a value to a variable. 
+                    <br>
+                    For example:
+                    <div class="string_problem">
+                        var1 = 'Hello World!' <br>
+                        var2 = "Python Programming" <br> <br>
+
+                        print ("var1[0]: ", var1[0]) <br>
+                        print ("var2[1:5]: ", var2[1:5])
+                    </div>
+                    
+                    <p>result:</p> 
+                    <div class="string_result">
+                        var1[0]:  H <br>
+                        var2[1:5]:  ytho
+                    </div>
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="list">
+            <div id="lists">
+                <header>Lists</header>
+                <p>
+                    The most basic data structure in Python is the sequence. Each element of a sequence is assigned a number - 
+                    its position or index. The first index is zero, the second index is one, and so forth. <br> <br>
+
+                    Python has six built-in types of sequences, but the most common ones are lists and tuples, 
+                    which we would see in this tutorial. <br> <br> 
+
+                    There are certain things you can do with all the sequence types. These operations include indexing, slicing, 
+                    adding, multiplying, and checking for membership. In addition, Python has built-in functions for finding the 
+                    length of a sequence and for finding its largest and smallest elements. <br> <br>
+
+                    Creating a list is as simple as putting different comma-separated values between square brackets. <br> <br>
+                    For example:
+                    <div class="list_problem">
+                        list1 = ['physics', 'chemistry', 1997, 2000]; <br>
+                        list2 = [1, 2, 3, 4, 5 ]; <br>
+                        list3 = ["a", "b", "c", "d"]; <br> <br>
+                        print ("list1[0]: ", list1[0]) <br>
+                        print ("list2[1:5]: ", list2[1:5])
+                    </div>                   
+                    
+                    <p>result:</p> 
+                    <div class="list_result">
+                        list1[0]:  physics <br>
+                    list2[1:5]:  [2, 3, 4, 5]
+                    </div>
+                    
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="tuples">
+            <div id="tuples">
+                <header>Tuples</header>
+                <p>
+                    A tuple is a sequence of immutable Python objects. Tuples are sequences, just like lists. 
+                    The main difference between the tuples and the lists is that the tuples cannot be changed unlike lists. 
+                    Tuples use parentheses, whereas lists use square brackets. <br> <br>
+
+                    Creating a tuple is as simple as putting different comma-separated values. Optionally, 
+                    you can put these comma-separated values between parentheses also. <br> <br>
+                    For example:
+                    <div class="tuple_problem">
+                        tup1 = ('physics', 'chemistry', 1997, 2000) <br>
+                        tup2 = (1, 2, 3, 4, 5 ) <br>
+                        tup3 = "a", "b", "c", "d" <br> <br>
+
+                        print ("tup1[0]: ", tup1[0]) <br>
+                        print ("tup2[1:5]: ", tup2[1:5])
+
+                    </div>
+                    
+                    <p>result:</p>
+                    <div class="tuple_result">
+                        tup1[0]:  physics <br>
+                        tup2[1:5]:  (2, 3, 4, 5)
+                    </div>
+                    
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="dictionary">
+            <div id="dictionary">
+                <header>Dictionary</header>
+                <p>
+                    Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is 
+                    enclosed in curly braces. An empty dictionary without any items is written with just two curly braces, like this: {}.
+                    <br> <br>
+                    Keys are unique within a dictionary while values may not be. The values of a dictionary can be of any type, 
+                    but the keys must be of an immutable data type such as strings, numbers, or tuples. <br><br>
+
+                    To access dictionary elements, you can use the familiar square brackets along with the key to obtain its value. <br> <br>
+                    Following is a simple example:
+                    <div class="dictionary_problem">
+                        dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'} <br>
+                        print ("dict['Name']: ", dict['Name']) <br>
+                        print ("dict['Age']: ", dict['Age'])
+                    </div>
+                    
+
+                    <p>result:</p>
+                    <div class="dictionary_result">
+                        dict['Name']:  Zara <br>
+                        dict['Age']:  7
+                    </div>
+                    
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="functions">
+            <div id="functions">
+                <header>Functions</header>
+                <p>
+                    A function is a block of organized, reusable code that is used to perform a single, related action. 
+                    Functions provide better modularity for your application and a high degree of code reusing. <br> <br>
+
+                    As you already know, Python gives you many built-in functions like print(), etc. but you can also create your 
+                    own functions. These functions are called user-defined functions. <br> <br>
+
+                    Syntax:
+                    <div class="func">
+                        def functionname( parameters ):
+                            <span style="margin-left: 3em;">"function_docstring"</span> 
+                            <span style="margin-left: 2em;">function_suite</span>
+                            <span style="margin-left: 2em;">return [expression]</span>
+                    </div>
+                    
+
+                    <p>Example:</p>
+                    <div class="func_example">
+                        def printme( str ):
+                        <span style="margin-left: 3em;">"This prints a passed string into this function"</span>
+                        <span style="margin-left: 2em;">print (str)</span>
+                        <span style="margin-left: 2em;">return</span> 
+                    </div>
+                    
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="modules">
+            <div id="modules">
+                <header>Modules</header>
+                <p>
+                    A module allows you to logically organize your Python code. Grouping related code into a module makes the 
+                    code easier to understand and use. A module is a Python object with arbitrarily named attributes that you can 
+                    bind and reference. <br> <br>
+
+                    Simply, a module is a file consisting of Python code. A module can define functions, classes and variables. 
+                    A module can also include runnable code. <br> <br>
+
+                    The Python code for a module named aname normally resides in a file namedaname.py. <br> <br>
+                    Here is an example of a simple module:
+                    <div class="module_example">
+                        def print_func( par ):
+                        <span style="margin-left: 2em;">print "Hello : ", par</span> 
+                        <span style="margin-left: 2em;">return</span>
+                    </div>
+                    <br>
+
+                    <p>When you import a module, the Python interpreter searches for the module in the following sequences:</p>
+                    <ul>
+                        <li>The current directory</li>
+                        <li>If the module is not found, Python then searches each directory in the shell variable PYTHONPATH.</li>
+                        <li>If all else fails, Python checks the default path. 
+                            On UNIX, this default path is normally /usr/local/lib/python/.</li>
+                    </ul>
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="filesio">
+            <div id="files_io">
+                <header>Files I/O</header>
+                <p>
+                    This chapter covers all the basic I/O functions available in Python 3. For more functions, 
+                    please refer to the standard Python documentation. <br> <br>
+
+                    Printing to the Screen: <br> <br>
+                    The simplest way to produce output is using the print statement where you can pass zero or more expressions 
+                    separated by commas. This function converts the expressions you pass into a string and writes the result to 
+                    standard output as follows: <br> <br>
+                    <div class="io">
+                        #!/usr/bin/python3 <br>
+
+                        print ("Python is really a great language,", "isn't it?")
+                    </div>
+                   
+                    
+                    <p>This produces the following result on your standard screen:</p>
+                    <div class="output">
+                        Python is really a great language, isn't it?
+                    </div>
+                    <br>
+                    <p>The input([prompt]) function is equivalent to raw_input, except that it assumes that the input is a 
+                    valid Python expression and returns the evaluated result to you.</p>
+
+                    <div class="io_example">
+                        #!/usr/bin/python3 <br> <br>
+
+                        >>> x = input("something:") <br>
+                        something:10 <br> <br>
+    
+                        >>> x <br>
+                        '10' <br> <br>
+    
+                        >>> x = input("something:") <br>
+                        something:'10' #entered data treated as string with or without '' <br> <br>
+    
+                        >>> x <br>
+                        "'10'"
+                    </div>
+                    
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="reference">
+            <div id="reference">
+                <header>Reference</header>
+                <p>
+                    <em>All the documentation in this page is taken from </em> 
+                    <a href="https://www.tutorialspoint.com/python3/index.htm" target="_blank">tutorialspoint</a>
+                </p>
+            </div>
+            
+        </section>
+    </main>
+
+    <nav id="navbar" style="width: 25%">
+        <header>Python3 Documentation</header> <hr>
+        <a class="intro_para" href="#introduction">Introduction</a> <hr>
+        <a class="basic_para" href="#basic_operators">Basic Operators</a> <hr>
+        <a class="intro_para" href="#decision_making">Decision Making</a> <hr>
+        <a class="intro_para" href="#loops">Loops</a> <hr>
+        <a class="intro_para" href="#numbers">Numbers</a> <hr>
+        <a class="intro_para" href="#strings">Strings</a> <hr>
+        <a class="intro_para" href="#lists">Lists</a> <hr>
+        <a class="intro_para" href="#tuples">Tuples</a> <hr>
+        <a class="intro_para" href="#dictionary">Dictionary</a> <hr>
+        <a class="intro_para" href="#functions">Functions</a> <hr>
+        <a class="intro_para" href="#modules">Modules</a> <hr>
+        <a class="intro_para" href="#files_io">Files I/O</a> <hr>
+        <a class="intro_para" href="#reference">Reference</a>
+    </nav>
+    
+</body>
+</html>

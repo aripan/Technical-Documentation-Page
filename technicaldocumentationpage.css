@@ -1,0 +1,237 @@
+#main-doc {
+    
+    margin-left: 30%;
+}
+
+@media screen and (max-width:700px) {
+    #main-doc {
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+}
+
+#navbar {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:500px) {
+    #navbar {
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:400px) {
+    #navbar a {
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+}
+
+#navbar header {
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 13, 13, 0.8);
+    text-align: justify;
+    
+}
+
+
+
+ul {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 13, 13, 0.8);
+    text-align: justify;
+    margin-left: 20px;
+}
+
+#main-doc header {
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: -15px;
+}
+
+#basic_operators a {
+    text-decoration: none;
+
+}
+
+img {
+    position: relative;
+    margin-left: 250px;
+}
+
+#decision_making li {
+    font-style: oblique;
+}
+
+.if_expression {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
+.if_else {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
+.nested span {
+    display: block;
+}
+
+.nested_example span {
+    display: block;
+}
+
+
+.nested {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
+.nested_example {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
+#loops li {
+    font-style: oblique;
+}
+
+.while span {
+    display: block;
+}
+
+.while_example span {
+    display: block;
+}
+
+.while,.while_example,.for_loop, .for_example {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
+
+
+.nested_loop span, .nested_loop_example span {
+    display: block;
+}
+
+.nested_loop, .nested_loop_example {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
+.var12,.del, .del_var, .number_example {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
+ 
+
+.string_problem, .string_result, .list_problem, .list_result, .tuple_problem, .tuple_result {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
+.dictionary_problem, .dictionary_result {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
+.func span, .func_example span {
+    display: block;
+}
+
+.func, .func_example {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
+.module_example span {
+    display: block;
+}
+
+.module_example, .io, .output, .io_example {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+    background-color: rgb(233, 221, 221, 0.4);
+    padding: 10px;
+}
+
