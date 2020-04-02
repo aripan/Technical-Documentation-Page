@@ -3,13 +3,6 @@
     margin-left: 30%;
 }
 
-@media screen and (max-width:700px) {
-    #main-doc {
-        width: auto;
-        height: auto;
-        position: relative;
-    }
-}
 
 #navbar {
     font-family: 'Courier New', Courier, monospace;
@@ -24,26 +17,14 @@
     padding-top: 20px;
 }
 
-@media screen and (max-width:500px) {
-    #navbar {
-        width: auto;
-        height: auto;
-        position: relative;
-    }
-}
+
 
 #navbar a {
     text-decoration: none;
     color: black;
 }
 
-@media screen and (max-width:400px) {
-    #navbar a {
-        width: auto;
-        height: auto;
-        position: relative;
-    }
-}
+
 
 #navbar header {
     font-weight: 900;
@@ -81,7 +62,8 @@ ul {
 
 img {
     position: relative;
-    margin-left: 250px;
+    margin: 0 200px;
+    
 }
 
 #decision_making li {
@@ -235,3 +217,54 @@ img {
     padding: 10px;
 }
 
+
+@media screen and (max-width:480px) {
+    #main-doc {
+    
+        overflow: hidden;
+    }
+
+    img {
+        position: relative;
+        margin: auto;       
+        
+    }
+
+    #navbar header {
+        font-weight: 600;
+        font-size: 12px;
+        
+    }
+
+    #navbar a {
+        
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        overflow: scroll;
+    }
+
+    #main-doc header {
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 0em;
+        
+    }
+
+    
+    p, ul {
+        font-size: 12px;
+    }
+
+    .if_expression, .if_else, .nested, .nested_example, .while,.while_example,
+    .for_loop, .for_example, .nested_loop, .nested_loop_example, .var12,.del, 
+    .del_var, .number_example, .string_problem, .string_result, .list_problem, 
+    .list_result, .tuple_problem, .tuple_result, .dictionary_problem, .dictionary_result, 
+    .func, .func_example, .module_example, .io, .output, 
+    .io_example {
+        
+        font-size: 10px;
+        
+    }
+
+}
