@@ -1,8 +1,28 @@
+/*
+=====================================================
+|                                                   |
+|                  The main content                 | 
+|                                                   |
+=====================================================
+*/
+
 #main-doc {
-    
     margin-left: 30%;
 }
 
+#main-doc header {
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: -15px;
+}
+
+/*
+=====================================================
+|                                                   |
+|                      Side Bar                     | 
+|                                                   |
+=====================================================
+*/
 
 #navbar {
     font-family: 'Courier New', Courier, monospace;
@@ -17,30 +37,25 @@
     padding-top: 20px;
 }
 
-
-
 #navbar a {
     text-decoration: none;
     color: black;
 }
-
-
 
 #navbar header {
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* All paragraphs in the content*/
 p {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(14, 13, 13, 0.8);
     text-align: justify;
-    
 }
 
-
-
+/* All unordered lists in the content*/
 ul {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,22 +64,33 @@ ul {
     margin-left: 20px;
 }
 
-#main-doc header {
-    font-size: 25px;
-    font-weight: 900;
-    margin-left: -15px;
-}
+/*
+=====================================================
+|                                                   |
+|                 Basic Operators                   | 
+|                                                   |
+=====================================================
+*/
 
 #basic_operators a {
     text-decoration: none;
 
 }
 
+/* All images in the content*/
 img {
     position: relative;
     margin: 0 200px;
     
 }
+
+/*
+=====================================================
+|                                                   |
+|                 Decision Making                   | 
+|                                                   |
+=====================================================
+*/
 
 #decision_making li {
     font-style: oblique;
@@ -119,6 +145,14 @@ img {
     padding: 10px;
 }
 
+/*
+=====================================================
+|                                                   |
+|                        Loops                      | 
+|                                                   |
+=====================================================
+*/
+
 #loops li {
     font-style: oblique;
 }
@@ -157,6 +191,14 @@ img {
     padding: 10px;
 }
 
+/*
+=====================================================
+|                                                   |
+|                       Numbers                     | 
+|                                                   |
+=====================================================
+*/
+
 .var12,.del, .del_var, .number_example {
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
@@ -167,7 +209,13 @@ img {
     padding: 10px;
 }
 
- 
+/*
+=====================================================
+|                                                   |
+|                       Strings                     | 
+|                                                   |
+=====================================================
+*/
 
 .string_problem, .string_result, .list_problem, .list_result, .tuple_problem, .tuple_result {
     font-family: 'Courier New', Courier, monospace;
@@ -179,6 +227,14 @@ img {
     padding: 10px;
 }
 
+/*
+=====================================================
+|                                                   |
+|                 Dictionary                   | 
+|                                                   |
+=====================================================
+*/
+
 .dictionary_problem, .dictionary_result {
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
@@ -188,6 +244,14 @@ img {
     background-color: rgb(233, 221, 221, 0.4);
     padding: 10px;
 }
+
+/*
+=====================================================
+|                                                   |
+|                    Functions                      | 
+|                                                   |
+=====================================================
+*/
 
 .func span, .func_example span {
     display: block;
@@ -202,6 +266,14 @@ img {
     background-color: rgb(233, 221, 221, 0.4);
     padding: 10px;
 }
+
+/*
+=====================================================
+|                                                   |
+|                 Modules & Files I/O               | 
+|                                                   |
+=====================================================
+*/
 
 .module_example span {
     display: block;
@@ -218,17 +290,48 @@ img {
 }
 
 
+
+/*
+=====================================================
+|                                                   |
+|           MEDIA QUERY TO MAKE THE WEBSITE         |
+|           MORE RESPONSIVE TO MOBILE               | 
+|                                                   |
+=====================================================
+*/
+
 @media screen and (max-width:480px) {
+
+    /*
+    =====================================================
+    |                                                   |
+    |                  The main content                 | 
+    |                                                   |
+    =====================================================
+    */
     #main-doc {
-    
         overflow: hidden;
     }
 
+    #main-doc header {
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 0em;
+    }
+
+    /* All images in the content*/
     img {
         position: relative;
         margin: auto;       
-        
     }
+
+    /*
+    =====================================================
+    |                                                   |
+    |                      Side Bar                     | 
+    |                                                   |
+    =====================================================
+    */
 
     #navbar header {
         font-weight: 600;
@@ -237,34 +340,25 @@ img {
     }
 
     #navbar a {
-        
         font-size: 12px;
         padding-top: 10px;
         padding-bottom: 15px;
         overflow: scroll;
     }
 
-    #main-doc header {
-        font-size: 18px;
-        font-weight: 600;
-        margin-left: 0em;
-        
-    }
-
-    
+    /* All paragraphs & unordered lists in the content*/
     p, ul {
         font-size: 12px;
     }
 
+    /* Font size for all coding examples */
     .if_expression, .if_else, .nested, .nested_example, .while,.while_example,
     .for_loop, .for_example, .nested_loop, .nested_loop_example, .var12,.del, 
     .del_var, .number_example, .string_problem, .string_result, .list_problem, 
     .list_result, .tuple_problem, .tuple_result, .dictionary_problem, .dictionary_result, 
     .func, .func_example, .module_example, .io, .output, 
     .io_example {
-        
         font-size: 10px;
-        
     }
 
 }
